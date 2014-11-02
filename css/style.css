@@ -1,0 +1,143 @@
+
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700);
+
+/* This section sets the defaults for the page, but you may never see changes here if they are overwritten by the div elements below.  */
+html, body {
+    margin: 0;  /* Margin is the amount of space between the border of an element, and the elements outside it. */
+    padding: 0; /* Padding is the amount of space between the border of an element, and the elements inside it. */
+}
+
+body{
+    font-size: 20px;  /* Default fonts */
+    font-family: 'Source Sans Pro',Arial, Sans-Serif;
+    text-align: left; /* Alignment of the text */
+    color: black; /* Main text color */
+    background: white; /* Main text background color */
+}
+
+p {
+    font-weight: 300;
+}
+
+p.action {
+    font-size: 1.2em;
+}
+
+a {                  /* A stands for link, so this section is setting the default characteristics of links. */
+    color: #FF9900;
+    text-decoration: none;
+}
+
+h1 {             /* This styles the header at the top of the page */
+    font: bold 2.1em 'Source Sans Pro',Arial, Sans-Serif;
+    line-height: 1em;
+    text-align: center;
+    padding: 0;
+    margin-bottom: 0px;
+}
+
+h2 {             /* This styles the headers within the page */
+    font: bold 1.5em 'Source Sans Pro',Arial, Sans-Serif;
+    padding: 0;
+    text-align: center;
+}
+
+h3 {
+  text-align: center;
+}
+
+.text-link {
+  text-align: center;
+  margin: 0 auto;
+  font-size: 18px;
+}
+
+.text-link:hover,
+.text-link:active {
+  color: #FFFFFF;
+}
+.icon-col {
+    text-align:center;
+    margin: 0 auto;
+    margin-bottom: 32px;
+}
+
+.icon-col p {
+    text-align: left;
+}
+
+.icon-col img {
+    max-width: 80%;
+}
+
+.container{
+  max-width: 960px;
+}
+
+#intro {
+     background: url('../imgs/penguins.jpg')no-repeat center center fixed; 
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+    padding: 72px 0;
+    background-size: cover;
+    color: #FFFFFF;
+}
+#intro h2{
+  margin-bottom:32px;
+}
+#intro h4 {
+    text-align: center;
+    font-weight: bold;
+}
+
+.intro-glass {
+  padding: 12px;
+  margin-bottom: 24px;
+    background: url('../imgs/penguins-blur.jpg')no-repeat center center fixed; 
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+}
+
+
+#intro-bottom {
+    padding: 12px;
+    background-color:#ed7b2e;
+    margin-bottom:24px;
+}
+
+.btn {
+  font-size: 20px;
+  background-color: rgba(255,066,0,0.2);
+  border-color: rgba(255,255,255,0.5);
+}
+
+.btn-lg {
+  font-size: 32px;
+}
+
+.btn:hover, .btn:active {
+  background-color:#ed7b2e;
+  border-color: #FF6600;
+}
+
+#footer a {
+  color: #FFFFFF;
+  text-decoration: underline;
+}
+
+#footer {
+  color:#FFFFFF;
+  background-color: #ed7b2e;
+  padding: 24px 0;
+  margin-top: 24px;
+}
+
+#footer .btn {
+  text-decoration: none;
+  background-color: #FFFFFF;
+  color: #FF6600;
+}
